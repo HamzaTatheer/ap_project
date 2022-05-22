@@ -1,0 +1,135 @@
+﻿@import url('owl.carousel.css');
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(to bottom, #0795ff,#30FFB7);
+    color: #999;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.60857;
+    margin: 0;
+}
+
+header {
+}
+
+.header-top {
+    background-color: white;
+    height: 180px;
+}
+
+.navbar-brand {
+    width: 270px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.session-info {
+    float: right;
+    width: 25%;
+    margin-top:7%;
+    height:40%;
+}
+
+#profile_link {
+    background-size: cover;
+    background-position:center;
+    height: 60px;
+    width: 60px;
+    outline: none;
+    margin-top:-25%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+    #profile_link:hover {
+        box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 48px 0 rgba(0,0,0,0.19);
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1);
+    }
+.profileinfo {
+    float: left;
+    font-size: 30px;
+    font-weight:500;
+    margin-top: 3%;
+    color: #0795ff;
+}
+.userinfo {
+    font-size: 20px;
+    color: #121111;
+    position: absolute;
+    margin-top: 1.5%;
+}
+
+.header-bottom {
+    position: sticky;
+    width: 100%;
+    background: linear-gradient(to right, #0795ff,#30FFB7);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navbar {
+    margin-top: 0;
+    padding-left: 120px;
+}
+
+header a {
+    float: left;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navbar > a:hover, .navbar > a:focus, .navbar > .active {
+    color: #fff;
+    background: #14d897;
+    box-shadow: 5px 5px 0 0px #fff;
+}
+
+
+.header-bottom .login-container {
+    float: right;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.login-container button {
+    border-radius: 40px;
+    background-color: #0795ff;
+    color: #FFFFFF;
+    border-color:aliceblue;
+    outline:none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 12px 40px;
+}
+
+    .login-container button:active {
+        transform: scale(0.95);
+    }
+
+    .login-container button:hover {
+        transition: 0.3s ease-in-out;
+        background: #14d897;
+    }

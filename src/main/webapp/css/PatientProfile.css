@@ -1,0 +1,168 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script&family=Oswald&display=swap');
+
+
+.container {
+    position: relative;
+    overflow: scroll;
+}
+
+.profile {
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    background-color: white;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    padding-top: 0%;
+}
+
+
+.profile_picture {
+    display: inline-grid;
+    position: relative;
+    align-content: center;
+    padding-left: 20%;
+    padding-top: 15%;
+}
+
+.information {
+    display: inline-grid;
+    display: grid;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+#picture img {
+    border: 3px solid #000000;
+    border-color: gray;
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+
+
+.hello_cell {
+    position: relative;
+    background-color: white;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.hello {
+    margin-bottom: -2%;
+    color: red;
+    text-align: left;
+    font-family: 'Oswald';
+    font-size: 40px;
+    margin-left: 3%;
+}
+
+
+.profile_name {
+    display: inline-grid;
+    position: relative;
+    margin-left: 2%;
+    padding-bottom: 3%;
+    border-bottom: 5px;
+    border-bottom-style: groove;
+    border-bottom-color: grey;
+    padding-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+.profile_cell {
+    display: inline-grid;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 1%;
+    margin-bottom: -1%;
+    padding: 2%;
+}
+
+
+
+.name {
+    padding-top: 3%;
+    position: relative;
+    color: black;
+    text-align: left;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    margin-bottom: -3%;
+    margin-top: -4%;
+    letter-spacing: 2px;
+}
+
+
+.info {
+    position: relative;
+    color: grey;
+    font-size: 18px;
+}
+
+.pre_info {
+    position: relative;
+    color: black;
+    font-family: 'Arimo';
+    font-weight: 600;
+    font-size:22px;
+}
+
+
+
+.history_container {
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    padding-right: 2%;
+    align-content: center;
+}
+
+.table-users {
+    border: 1.5px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.1);
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+}
+
+    table td, table th {
+        color: rgba(0,0,0,0.8);
+        padding: 10px;
+        font-size: 22px;
+        
+    }
+
+    table td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 30px;
+    }
+
+
+    table th {
+        background-color: #2fe495;
+        font-weight: 600;
+    }
+
+    table tr:nth-child(2n) {
+        background-color: white;
+    }
+
+    table tr:nth-child(2n+1) {
+        background-color: #e0fae3;
+    }

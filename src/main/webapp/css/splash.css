@@ -1,0 +1,91 @@
+﻿* {
+    box-sizing: border-box;
+}
+body {
+    background-color: deepskyblue;
+    color: #999;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.60857;
+    margin: 0;
+}
+
+header {
+    width:100%;
+}
+.header-top {
+    background-color: white;
+    height:210px;
+}
+
+.navbar-brand img {
+    width: 270px;
+    height:100%;
+    margin-left:100px;
+    margin-top:100px;
+}
+
+.header-bottom {
+    width: 100%;
+    background: linear-gradient(to right, #0795ff,#30FFB7);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    list-style-type: none;
+    overflow: hidden;
+    position: sticky;
+}
+.navbar{
+    margin-top:0;
+    padding-left:120px;
+}
+
+a {
+    float: left;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.navbar > a:hover, .navbar > a:focus, .navbar > .active {
+    color: #fff;
+    background: #14d897;
+    box-shadow: 5px 5px 0 0px #fff;
+}
+
+
+.header-bottom .login-container {
+    float: right;
+    margin-right:60px;
+    margin-top:10px;
+}
+button {
+    background-color: #0795ff;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 12px 45px;
+}
+
+    button:active {
+        transform: scale(0.95);
+    }
+
+    button:hover {
+        background: #14d897;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+

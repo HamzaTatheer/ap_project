@@ -1,0 +1,126 @@
+﻿.wrapper {
+    background-image: url('imgs/gradient.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: -3%;
+    padding-bottom: 10%;
+}
+
+
+.highlights {
+    width: 85%;
+    height: 70%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: inline-block;
+}
+
+.section {
+    height: 70%;
+    width: 27%;
+    float: left;
+    margin-right: 4%;
+    color: white;
+    margin-top: 3%;
+    color: black;
+}
+
+.head {
+    padding-top: 10%;
+    font-size: 20px;
+}
+
+.section img {
+    width: 30%;
+    height: 30%;
+}
+
+
+.section hr {
+    text-align: center;
+    width: 50%;
+    height: 1px;
+    border: none;
+    border-top: 2px dotted #0066ff;
+    background-color: black;
+}
+
+#pic1 {
+    border: 4px solid #ddd;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+    #pic1:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+hr {
+    height: 3px;
+    color: red;
+    background: linear-gradient(to right, #0795ff,#30FFB7);
+    border: none;
+    width: 77%;
+}
+
+.meet h1 {
+    color: #4e847c
+}
+
+.meet p {
+    color: #4e847c
+}
+
+.about p {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 10%;
+    color: black;
+}
+small{
+    font-size:16px;
+    color:#de7742
+}
+
+.cont_forimage {
+    position: relative;
+    width: 50%;
+}
+
+._theimage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle_forimage {
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 55%;
+    left: 80%;
+    width: 50%;
+    height: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.cont_forimage:hover ._theimage {
+    opacity: 0.3;
+}
+
+.cont_forimage:hover .middle_forimage {
+    opacity: 1;
+}
+
+._logo {
+    width: 20%;
+    height: 20%;
+    margin-left: 20%;
+}

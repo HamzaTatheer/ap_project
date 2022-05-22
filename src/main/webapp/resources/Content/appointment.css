@@ -1,0 +1,206 @@
+﻿
+
+.main {
+    font-family: 'Lato', sans-serif;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main{
+    min-height:100vh;
+    height:100%;
+    padding-bottom:15%;
+}
+.section {
+    position:relative;
+    margin-left: 5%;
+    float: left;
+    display: inline-block;
+    margin-top: 15%;
+    width: 20%;
+    color: #191a1e;
+}
+
+.booking-form { /*change the container here*/
+    display: inline-block;
+    background: #fff;
+    border-radius: 50px;
+    float:right;
+    margin-right:10%;
+    width:35%;
+    margin-top:15%;
+    padding: 45px 20px 25px 20px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+    .booking-form .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .booking-form .form-control { /*change the texts here*/
+        background-color: #fff;
+        height: 65px;
+        border: 2px solid #dfe5e9;
+        font-size: 25px;
+        text-align:center;
+        outline:none;
+        font-weight: 500;
+        border-radius: 4px;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+        width:100%;
+        border-radius: 50px;
+        padding: 10px;
+        height: 75px;
+        border-color: aquamarine;
+    }
+
+    .booking-form .form-label {
+        position: absolute;
+        top: 6px;
+        left: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 24px;
+        height: 24px;
+        font-size: 12px;
+        color: #98c9ee;
+    }
+
+    .booking-form .submit-btn {
+        background: linear-gradient(to right, #0795ff,#30FFB7);
+        font-weight: 500;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+        border-radius: 50px;
+        padding: 10px;
+        width: 80%;
+        height: 75px;
+        border-color: aquamarine;
+        position: center;
+        margin-left: 65px;
+        transition: transform 80ms ease-in;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+        .booking-form .submit-btn:active {
+            transform: scale(0.95);
+        }
+
+        .booking-form .submit-btn:hover {
+            transition: 0.3s ease-in-out;
+            background: #14d897;
+        }
+
+    .booking-cta h1 {
+        font-size: 50px;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.35);
+        font-weight: 500;
+    }
+
+    .booking-cta p {
+        font-size: 24px;
+        color: #191a1e;
+    }
+
+#l1 {
+    color: #4fa3e3;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#doctor {
+    background-color: #bafde6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    outline:none;
+    width: 44%;
+    border-radius: 20px;
+    float:right;
+    margin-right:10px;
+    padding: 5px 0 5px 0;
+    z-index: 1;
+}
+    #doctor:hover #doctor-content {
+        display: block;
+    }
+
+.table-users {
+    border: 1.5px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    max-width: calc(100% - 2em);
+    margin: 1em auto;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 500;
+}
+.heading {
+    background-color: #077cff;
+    font-size: 28px;
+    padding:22px;
+    font-weight:500;
+    color:rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+    table td, table th {
+        color: rgba(0,0,0,0.8);
+        padding: 10px;
+        font-size: 22px;
+    }
+
+    table td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 20px;
+    }
+
+
+    table th {
+        background-color:#55b6ff;
+        font-weight: 600;
+    }
+
+    table tr:nth-child(2n) {
+        background-color: white;
+    }
+
+    table tr:nth-child(2n+1) {
+        background-color: #e1e9ff;
+    }
+.book_btn {
+    border-radius: 40px;
+    background-color: #ff2e2e;
+    color: #FFFFFF;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    padding: 12px 40px;
+}
+
+    .book_btn:active {
+        transform: scale(0.95);
+    }
+
+    .book_btn:hover {
+        transition: 0.3s ease-in-out;
+        background: #14d897;
+    }
